@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:8080", {
+const socket = io("https://swissmote-backend-j0j9.onrender.com", {
     withCredentials: true, // Allow credentials like cookies & auth headers
     transports: ["websocket"], // Force WebSocket mode
     autoConnect: false, // Prevent auto-connect, use `socket.connect()` manually
