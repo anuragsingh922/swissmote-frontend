@@ -15,7 +15,7 @@ import CreateEvent from "./pages/CreateEvent";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
-import Socket from "./hooks/socket";
+import Socket from "./hooks/Socket";
 import FetchInitialData from "./hooks/FetchInitialData.js";
 
 const queryClient = new QueryClient();
